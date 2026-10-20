@@ -1,0 +1,19 @@
+{
+  "name": "ai-style-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "86 visual-style prompts for animated explainers, with the reference animation source for each style.",
+  "homepage": "https://vinay10000.github.io/ai-style-atlas/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinay10000/ai-style-atlas.git"
+  },
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
